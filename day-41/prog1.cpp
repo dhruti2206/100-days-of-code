@@ -1,0 +1,16 @@
+//set & unordered_set
+#include<iostream>
+#include<set>
+using namespace std;
+int main(){
+    set<int> s;
+    s.insert(10);
+    s.insert(20);
+    s.insert(30);
+    cout << "Elements in the set: ";
+    for (auto it = s.begin(); it != s.end(); ++it) {
+        cout << *it << " ";
+    }
+    cout << endl;
+    return 0;
+}
